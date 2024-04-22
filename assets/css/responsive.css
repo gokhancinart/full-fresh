@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {
+  :root {
+    --promo-height: 100vh;
+  }
+
+  .slick-slide {
+    max-height:var(--promo-height);
+    position:relative;
+  }
+  
+  .slick-slide .background-promo {
+    width:100%;
+    height:var(--promo-height);
+    object-fit: cover;
+  }
+  
+  .slick-top-fix {
+    min-height: var(--promo-height);
+  }
+
+  .caption{
+    width:100%;
+    font-size:35px;
+  }
+
+  .caption b{
+    font-size:45px;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  }
+
+}
